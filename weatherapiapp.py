@@ -1,8 +1,3 @@
-"""
-10/20/26
-pip install PyQt5
-"""
-
 import sys
 import requests
 from PyQt5.QtWidgets import(QApplication, QWidget, QLabel,
@@ -49,7 +44,7 @@ class WeatherApp(QWidget):
         self.description_label.setObjectName("description_label")
 
         self.setStyleSheet("""
-        QLabel, QPusbButton{
+        QLabel, QPushButton{
             font-family: Times New Roman
         }
         QLabel#city_label{
